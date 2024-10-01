@@ -1,0 +1,113 @@
+{
+  "categories": [
+    { "id": 1, "title": "Fridges" },
+    { "id": 2, "title": "Kettles" },
+    { "id": 3, "title": "Televisions" }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "catId": 1,
+      "title": "Beko White Fridge Freezer",
+      "image": "1.webp",
+      "specs": {
+        "dimension": "180x70x68 cm",
+        "capacity": "340L"
+      },
+      "features": ["Frost Free", "Energy Efficiency Class A+", "Reversible Doors"],
+      "price": 500,
+      "stock": 15
+    },
+    {
+      "id": 2,
+      "catId": 1,
+      "title": "Samsung Black Fridge Freezer",
+      "image": "2.jpeg",
+      "specs": {
+        "dimension": "175x65x65 cm",
+        "capacity": "320L"
+      },
+      "features": ["Twin Cooling System", "Digital Inverter Compressor", "LED Display"],
+      "price": 700,
+      "stock": 10
+    },
+    {
+      "id": 3,
+      "catId": 1,
+      "title": "LG Stainless Steel Fridge",
+      "image": "3.jpeg",
+      "specs": {
+        "dimension": "190x72x70 cm",
+        "capacity": "400L"
+      },
+      "features": ["Smart Cooling System", "Water Dispenser", "Inverter Linear Compressor"],
+      "price": 850,
+      "stock": 8
+    },
+    {
+      "id": 4,
+      "catId": 2,
+      "title": "Philips Electric Kettle",
+      "image": "6.jpeg",
+      "specs": {
+        "dimension": "25x22x20 cm",
+        "capacity": "1.7L"
+      },
+      "features": ["Automatic Shut-off", "Boil-Dry Protection", "Cordless 360° base"],
+      "price": 40,
+      "stock": 30
+    },
+    {
+      "id": 5,
+      "catId": 2,
+      "title": "Bosch Cordless Kettle",
+      "image": "5.jpeg",
+      "specs": {
+        "dimension": "24x21x19 cm",
+        "capacity": "1.5L"
+      },
+      "features": ["Temperature Control", "Rapid Boil", "Limescale Filter"],
+      "price": 60,
+      "stock": 20
+    },
+    {
+      "id": 6,
+      "catId": 3,
+      "title": "Samsung 55\" LED TV",
+      "image": "6.jpeg",
+      "specs": {
+        "dimension": "123x75x7 cm",
+        "resolution": "4K UHD"
+      },
+      "features": ["Smart TV", "HDR10+", "Slim Design"],
+      "price": 600,
+      "stock": 12
+    },
+    {
+      "id": 7,
+      "catId": 3,
+      "title": "Sony 65\" 4K TV",
+      "image": "7.jpeg",
+      "specs": {
+        "dimension": "145x83x8 cm",
+        "resolution": "4K UHD"
+      },
+      "features": ["Triluminos Display", "X-Reality PRO", "Smart TV"],
+      "price": 1000,
+      "stock": 5
+    },
+    {
+      "id": 8,
+      "catId": 3,
+      "title": "LG 75\" OLED TV",
+      "image": "8.jpeg",
+      "specs": {
+        "dimension": "167x96x8 cm",
+        "resolution": "4K OLED"
+      },
+      "features": ["Self-Lit OLED", "AI Picture Pro", "Dolby Vision IQ"],
+      "price": 2500,
+      "stock": 3
+    }
+  ]
+}
